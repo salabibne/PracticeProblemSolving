@@ -1,0 +1,17 @@
+
+BFS (level by level)
+
+l1 -----------
+l2 -----------
+l2 -----------
+
+DFS (depth )
+
+| d1
+/ d2
+/ d3
+/ d4
+/ d5
+/ d6
+
+Tree / Graph ==> not possible to run loop.
