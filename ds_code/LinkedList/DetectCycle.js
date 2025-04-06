@@ -58,12 +58,12 @@ class DetectCycle {
       fast = fast.next.next;
 
       if (slow.value === fast.value) {
-        // Cycle Detection Point 
+        // Cycle Detection 
         console.log("Loop Detected ");
         console.log(`count ${count}--slow ${slow.value}--fast ${fast.value}`);
         let headPosition = this.head;
         while (headPosition != slow) {
-          // cycle detection occurs
+          // cycle detection Point 
           headPosition = headPosition.next;
           slow = slow.next;
           if (headPosition === slow) {
